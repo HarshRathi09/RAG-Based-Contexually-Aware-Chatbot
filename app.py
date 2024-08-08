@@ -10,6 +10,9 @@ import chromadb
 from langchain.memory import ConversationBufferMemory
 from streamlit_extras.switch_page_button import switch_page
 
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 # Set page config
 st.set_page_config(page_title="RAG Chatbot", page_icon="🤖", layout="wide")
 
