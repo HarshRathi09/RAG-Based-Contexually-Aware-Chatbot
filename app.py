@@ -14,7 +14,8 @@ from streamlit_extras.switch_page_button import switch_page
 st.set_page_config(page_title="RAG Chatbot", page_icon="🤖", layout="wide")
 
 # Set your Hugging Face token here
-HF_TOKEN = "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"
+
+HF_TOKEN = st.secrets["HF_TOKEN"]
 
 # Initialize your models, databases, and other components here
 @st.cache_resource
