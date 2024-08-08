@@ -18,7 +18,6 @@ from langchain.text_splitter import CharacterTextSplitter
 from langchain.vectorstores import Chroma
 import chromadb
 from langchain.memory import ConversationBufferMemory
-from streamlit_extras.switch_page_button import switch_page
 
 
 
@@ -125,11 +124,11 @@ col1, col2 = st.columns(2)
 with col1:
     chat = st.button("Chat")
     if chat:
-        switch_page("chatbot")
+        st.switch_page("Pages/chatbot.py")
 
 with col2:
     rag = st.button("Store Document")
     if rag:
-        switch_page("management")
+        st.switch_page("Pages/management.py")
 
 st.markdown("<div style='text-align:center;'></div>", unsafe_allow_html=True)
