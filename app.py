@@ -124,11 +124,11 @@ col1, col2 = st.columns(2)
 with col1:
     chat = st.button("Chat")
     if chat:
-        st.switch_page("Pages/chatbot.py")
+        st.switch_page("pages/chatbot.py")
 
 with col2:
     rag = st.button("Store Document")
     if rag:
-        st.switch_page("Pages/management.py")
+        st.switch_page("pages/management.py")
 
 st.markdown("<div style='text-align:center;'></div>", unsafe_allow_html=True)
