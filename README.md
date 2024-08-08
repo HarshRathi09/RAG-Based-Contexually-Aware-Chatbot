@@ -36,7 +36,7 @@ To install and set up the project, follow these steps:
     ```bash
     streamlit run app.py
     ```
-    # OR
+    ### OR
      -deployed on streamlit:https://team-qubits.streamlit.app/
 3. Interact with the chatbot via the web interface.
 4. Upload documents using the Document Management section and process them for use within the chatbot.
