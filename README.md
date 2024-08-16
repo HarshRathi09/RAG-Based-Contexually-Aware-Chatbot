@@ -61,7 +61,7 @@ The project relies on the following major dependencies:
 
 ## Contributor
 <a href="https://github.com/OWNER/REPO/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=OWNER/REPO" width="60px;"/>
+  <img src="https://contrib.rocks/image?repo=OWNER/REPO" width="160px;"/>
 </a>
 <img src="https://avatars.githubusercontent.com/u/143495024?v=4" width="60px;"/><br /><sub><a href="https://github.com/HarshRathi09">HarshRathi09</a></sub>(https://github.com/HarshRathi09)
 
