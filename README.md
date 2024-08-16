@@ -60,8 +60,7 @@ The project relies on the following major dependencies:
 - Additional configuration options may be found within the `app.py` file.
 
 ## Contributor
-<a href="https://avatars.githubusercontent.com/u/143495024?v=4">
-  <img src="https://github.com/HarshRathi09" width="160px;"/>
+<a href="https://github.com/HarshRathi09" width="160px;">
 </a>
 <img src="https://avatars.githubusercontent.com/u/143495024?v=4" width="60px;"/><br /><sub><a href="https://github.com/HarshRathi09">HarshRathi09</a></sub>(https://github.com/HarshRathi09)
 
