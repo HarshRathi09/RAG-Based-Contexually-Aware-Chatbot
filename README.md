@@ -1,4 +1,4 @@
-# RAG Chatbot Application🤖
+## RAG Chatbot Application🤖
 
 ## Introduction
 This project implements a Context-Awarew Retrieval-Augmented Generation (RAG) chatbot using Streamlit.The chatbot is powered by the Mistral-7B-Instruct-v0.3 language model integrated with ChromaDB as vector database.
